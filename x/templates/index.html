@@ -1,1 +1,11 @@
-hola mundo
+{% extends "base.html" %}
+
+{% block contenido %}
+  <h1 class="text-3xl font-bold text-blue-600 flex items-center gap-2 mb-6">
+    🎨 ¡Prueba de botón Tailwind!
+  </h1>
+
+  <button class="px-6 py-3 bg-green-500 text-white rounded-lg shadow-lg hover:bg-green-600 transition-all duration-300">
+    🚀 ¡Click aquí para comprobar!
+  </button>
+{% endblock contenido %}
